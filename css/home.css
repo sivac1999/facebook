@@ -1,0 +1,485 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: arial;
+}
+header{
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+    background-color: white;
+}
+.head-row{
+    display: flex;
+    padding: 1%;
+    border-bottom: 1px solid rgb(219, 216, 216);
+    
+}
+
+.head-col1{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.head-col2{
+    width: 50%;
+    display: flex;
+    justify-content:space-around;
+    padding-left:7%;
+}
+
+.head-col3{
+    width: 30%;
+}
+
+.head-col1-icon{
+    width:13%;
+    height:100%;
+    border-radius: 50%;
+    padding-top: 1.5%;
+    background-color: rgb(139, 139, 248);
+}
+
+.head-col1-icon i{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.5em;
+    color: white;
+}
+.head-col1-icon2{
+    width:85%;
+    position: relative;
+}
+
+.head-col1-icon2 input{
+    width:100%;
+    border: 1px solid rgb(247, 245, 245);
+    height:100%;
+    padding-top: 2%;
+    padding-left: 15%;
+    border-radius: 20px;
+    background-color: rgb(245, 243, 243);
+}
+
+.head-col1-icon2 i{
+    position: absolute;
+    top:10px;
+    left:5%;
+}
+.head-col2 div{
+    width: 5%;
+}
+.head-col2 div i{
+    font-size:20px;
+}
+.head-col2 div i:hover{
+    color: blue;
+}
+.head-col2-home i{ 
+    color: blue;
+}
+.head-image{
+    width:5%;
+    height:90%;
+    border-radius: 50%;
+}
+
+.head-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.head-col3 div{
+   float: right;
+   height: 80%;
+   width: 7%;
+   border: 1px solid rgb(201, 198, 198);
+   display: flex;
+   justify-content: center;
+   padding-top: 0.5%;
+   border-radius: 50%;
+   background-color:  rgb(221, 216, 216);
+}
+
+
+.head-col3 div i{
+    font-size: 20px;
+}
+
+
+/* home */
+
+.home-row{
+    display: flex;
+}
+
+.home-col1{
+    width:25%;
+    padding: 2%;
+    /* position: fixed; */
+}
+.home-col2{
+    width:48%;
+    background-color: rgb(238, 237, 237);
+    /* position: fixed;
+    left: 25%; */
+}
+.home-col3{
+    width:27%;
+    /* position: fixed;
+    left:73%; */
+}
+
+.home-col1-head{
+    display: flex;
+    justify-content: space-between;
+    padding: 4% 1%;
+    border-radius: 5px;
+}
+
+.home-col1-icon{
+    display: flex;
+    padding: 4% 1%;
+    border-radius: 5px;
+}
+.home-col1-icon:hover,.home-col1-head:hover{
+    background-color: rgb(218, 215, 215);
+}
+.home-col1-icons{
+    display: flex;
+    padding: 3% 1%;
+    width: 85%;
+}
+.home-col1-ico{
+    font-size: 20px;
+    font-weight: bold;
+}
+.home-col1-icon p,.home-col1-icons p{
+    padding-left: 5%;
+    text-transform: capitalize;
+}
+
+.home-col1-para{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.home-col1-para2{
+    color: rgb(49, 158, 201);
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.home-col2-head{
+    display: flex;
+    justify-content: space-between;
+    padding:  2% 0%;
+}
+.home-col2-para{
+    font-size: 18px;
+    font-weight: bold;
+}
+.home-col2-para2{
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(50, 165, 211);
+}
+.home-col2-image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.home-col2-mainimage{
+    width: 18%;
+    height: 190px;
+    position: relative;
+}
+
+.home-col2-mainimage img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.home-col2-logo{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+
+.home-col2-logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.home-col2-heads{
+    padding: 2%;
+}
+
+.home-col2-heads2{
+    width: 60%;
+    margin: auto;
+    padding: 4% 0%;
+}
+.home-col2-post{
+   background-color: white;
+   box-shadow: 0px 0px 10px silver;
+   border-radius: 10px;
+   padding: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.home-col2-postlogo{
+    width: 40px;
+    height: 40px;
+}
+
+.home-col2-postlogo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+
+.home-col2-addpost{
+    width:70%; 
+}
+.home-col2-addpost input{
+    width:100%;
+    padding: 3% 0%;
+    background-color: rgb(218, 211, 211);
+    border: 1px solid rgb(218, 211, 211);
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+.home-col2-addfile{
+    padding: 2% 0%;
+    
+}
+.home-col2-addfile i{
+    font-size: 20px;
+}
+.home-col2-card{
+    padding: 3% 0%;
+}
+
+.home-col3-head{
+    width: 85%;
+    margin: auto;
+    padding: 3% 0%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px silver;
+}
+.home-col3-para{
+    padding: 4% 8%;
+    font-weight: bold;
+}
+.home-col3-image{
+    background-image: url(../images/group2.jpeg);
+    padding: 6%;
+}
+.home-col3-image h3{
+    color: white;
+}
+
+.home-col3-image p{
+    color: white;
+    padding: 6% 0%;
+}
+.home-col3-image input{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 2% 0%;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.home-col3-logo{
+    padding: 2%;
+    display: flex;
+}
+
+.home-col3-logoimage{
+    width: 40px;
+    height: 40px;
+}
+.home-col3-logoimage img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.home-col3-logo p{
+    padding: 3% 2%;
+    color: rgb(177, 175, 175);
+}
+.home-col3-heads2{
+    width: 85%;
+    margin: auto;
+    padding: 5% 0%;
+}
+
+.home-col3-para2{
+    display: flex;
+    justify-content:space-between;
+    padding: 2% 0%;
+}
+.home-col3-para2 p{
+    font-weight: bold;
+}
+.home-col3-profile{
+    display: flex;
+    padding: 3% 0%;
+}
+.home-col3-profileimage{
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+.home-col3-profileimage img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.home-col3-profile h4{
+    padding:3% 5%;
+}
+
+.home-col2-card{
+    width:100%;
+    margin: auto;
+    padding: 3% 0%;
+}
+.container{
+    padding: 3% 0%;
+}
+.row{
+    width:100%;
+    margin: auto;
+    border: 1px solid rgb(145, 142, 142);
+    box-shadow: 0px 0px 10px silver;
+    border-radius: 5px;
+}
+
+.col{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.logo{
+    display: flex;
+    width:80%;
+}
+
+.logo-image{
+    width: 40px;
+    height: 40px;
+}
+.logo-para{
+    padding-left:2%;
+}
+.logo-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 1px solid rgb(214, 73, 73);
+}
+
+.logo-para1{
+    color: rgb(46, 45, 45);
+}
+.logo-para2{
+    color: rgb(63, 62, 62);
+    font-size: 14px;
+}
+.main-image{
+    width: 100%;
+    height: 300px;
+}
+
+.main-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.main-icon i{
+    font-size: 20px;
+}
+
+.name{
+    padding: 3% 0%;
+    font-weight: bold;
+}
+.comment{
+    padding: 3% 0%;
+    color: rgb(116, 114, 114);
+    font-size: 14px;
+}
+
+.main-icon2 i{
+font-size: 30px;
+}
+
+.col3{
+    border-top: 1px solid silver;
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.col3 p{
+    color: rgb(71, 71, 71);
+}
+
+.liked{
+    padding-top: 2%;
+}
+
+.home-col3-online{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    position: absolute;
+    background-color: green;
+    right: 0%;
+    bottom: 10%;
+    box-shadow: 0px 0px 10px black;
+}
+
+.online{
+    border: 2px solid blue;
+}
+
+.addimage{
+    width: 10%;
+    height: 100px;
+    position: fixed;
+    right: 1%;
+    bottom: 15%;
+}
+.addimage img{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 10px black;
+}

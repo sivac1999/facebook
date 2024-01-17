@@ -1,0 +1,26 @@
+@media(min-width:320px){
+    .row{
+        width:90%;
+    }
+    .container{
+        padding: 10% 0%;
+    }
+}
+
+@media(min-width:660px){
+    .row{
+        width:70%;
+    }
+    .container{
+        padding: 20% 0%;
+    }
+}
+
+@media(min-width:1000px){
+    .row{
+        width:30%;
+    }
+    .container{
+        padding: 1.2% 0%;
+    }
+}
